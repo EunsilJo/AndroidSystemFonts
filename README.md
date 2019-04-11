@@ -4,7 +4,7 @@ Path of Android SDK fonts.xml - ~/Library/Android/sdk/platforms/android-28/data/
 
 #### Default system fonts are Roboto(en), NotoSansCJK(ko, ja) on Android 9.0(P, api 28)
 
-## en
+### en
 
 | FONT FAMILY                 | STYLE  | ANDROID VERSION             |                           |     |     |     |     |
 |:----------------------------|:-------|:----------------------------|:--------------------------|:----|:----|:----|:----|
@@ -41,7 +41,7 @@ Path of Android SDK fonts.xml - ~/Library/Android/sdk/platforms/android-28/data/
 | serif                       | normal | -               | -                         | -   | -   | -   | NotoSerifCJK-Regular.ttc |
 | others **(default)**             | normal | -               | NotoSansKR-Regular.otf / NotoSansJP-Regular.otf |     | NotoSansCJK-Regular.ttc |     |     |
 
-## weight
+### weight
 
 | TYPEFACE | WEIGHT |
 |:---------|:-------|
@@ -53,7 +53,7 @@ Path of Android SDK fonts.xml - ~/Library/Android/sdk/platforms/android-28/data/
 | -Bold   | 700    |
 
 
-## Fonts in XML
+### Fonts in XML
 
 https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml
 
@@ -62,7 +62,7 @@ positive  : not depends on device spec
 negative  : Font size increases APK size
 
 
-## Downloadable Fonts
+### Downloadable Fonts
 
 https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts
 
