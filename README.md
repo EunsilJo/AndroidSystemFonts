@@ -52,6 +52,7 @@ Path of Android SDK fonts.xml - ~/Library/Android/sdk/platforms/android-28/data/
 | -Black   | 900    |
 | -Bold   | 700    |
 
+
 ### Fonts in XML
 
 https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml
@@ -59,6 +60,7 @@ https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml
 positive : not depends on device spec
 
 negative : Font size increases APK size
+
 
 ### Downloadable Fonts
 
@@ -68,4 +70,4 @@ https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts
 
 positive : Font size **NOT** increases APK size
 
-negative : depends on device spec - Android 4.4 version, Google Play Service 11 version, api level 26 or higher
+negative : depends on device spec - **Android 4.4 version, Google Play Service 11 version, api level 26 or higher**
