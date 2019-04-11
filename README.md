@@ -57,7 +57,7 @@ Path of Android SDK fonts.xml - ~/Library/Android/sdk/platforms/android-28/data/
 
 https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml
 
-positive : not depends on device spec
+positive  : not depends on device spec
 
 negative : Font size increases APK size
 
@@ -68,6 +68,6 @@ https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts
 
 <img src="https://developer.android.com/guide/topics/ui/images/look-and-feel/downloadable-fonts/downloadable-fonts-process.png" width="400"/>
 
-positive : Font size **NOT** increases APK size
+positive  : Font size **NOT** increases APK size
 
 negative : depends on device spec - **Android 4.4 version, Google Play Service 11 version, api level 26 or higher**
