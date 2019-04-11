@@ -32,7 +32,7 @@ Path of Android SDK fonts.xml - ~/Library/Android/sdk/platforms/android-28/data/
 |                             | bold   | DroidSerif-Bold.ttf         | DancingScript-Bold.ttf    |     |     |     |     |
 | sans-serif-smallcaps        | normal | -                           | CarroisGothicSC-Regular.ttf |     |     |     |     |
 
-## ko/ja
+### ko/ja
 
 | FONT FAMILY                 | STYLE  | ANDROID VERSION |                           |     |     |     |     |
 |:----------------------------|:-------|:----------------|:--------------------------|:----|:----|:----|:----|
