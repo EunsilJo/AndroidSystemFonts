@@ -39,6 +39,33 @@ Path of Android SDK fonts.xml - ~/Library/Android/sdk/platforms/android-28/data/
 |                             |        | 4.4             | 5.0                       | 6.0 | 7.0 | 8.0 | 9.0 |
 |                             |        | TYPEFACE        |                           |     |     |     |     |
 | serif                       | normal | -               | -                         | -   | -   | -   | NotoSerifCJK-Regular.ttc |
-| others **(default)**             | normal | -               | NotoSansKR-Regular.otf / NotoSansJP-Regular.otf | -   | NotoSansCJK-Regular.ttc |     |     |
+| others **(default)**             | normal | -               | NotoSansKR-Regular.otf / NotoSansJP-Regular.otf |     | NotoSansCJK-Regular.ttc |     |     |
 
+### weight
 
+| TYPEFACE | WEIGHT |
+|:---------|:-------|
+| -Thin	   | 100    |
+| -Light   | 300    |
+| -Regular   | 400    |
+| -Medium   | 500    |
+| -Black   | 900    |
+| -Bold   | 700    |
+
+### Fonts in XML
+
+https://developer.android.com/guide/topics/ui/look-and-feel/fonts-in-xml
+
+positive : not depends on device spec
+
+negative : Font size increases APK size
+
+### Downloadable Fonts
+
+https://developer.android.com/guide/topics/ui/look-and-feel/downloadable-fonts
+
+<img src="https://developer.android.com/guide/topics/ui/images/look-and-feel/downloadable-fonts/downloadable-fonts-process.png" width="400"/>
+
+positive : Font size **NOT** increases APK size
+
+negative : depends on device spec - Android 4.4 version, Google Play Service 11 version, api level 26 or higher
